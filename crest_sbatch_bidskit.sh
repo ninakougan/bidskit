@@ -3,7 +3,7 @@
 #SBATCH -A p31589
 #SBATCH -p short
 #SBATCH -t 02:00:00
-#SBATCH --mem=2G
+#SBATCH --mem=5G
 #SBATCH -J bids-crest
 #SBATCH	--mail-type=END,FAIL
 #SBATCH	--mail-user=ninakougan@northwestern.edu
